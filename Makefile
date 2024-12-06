@@ -51,7 +51,7 @@ clean:
 	rm -f $(BINARY_WINDOWS_ARM64)
 
 run: build
-	./$(BINARY_NAME)
+	./$(BINARY_LOCAL)
 
 test: 
 	$(GOTEST) -v ./...
