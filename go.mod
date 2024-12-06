@@ -1,4 +1,4 @@
-module adb-init
+module adbinit
 
 go 1.21.5
 
